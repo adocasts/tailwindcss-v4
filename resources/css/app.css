@@ -1,0 +1,23 @@
+/**
+ * TailwindCSS v4
+ * Upgrade Guide: https: //tailwindcss.com/docs/upgrade-guide
+ */
+
+@import "tailwindcss";
+@source "../views";
+
+/* see adding custom styles: https: https://tailwindcss.com/docs/adding-custom-styles */
+@theme {
+  --color-blue-500: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
